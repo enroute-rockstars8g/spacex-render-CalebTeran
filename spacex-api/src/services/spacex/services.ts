@@ -1,13 +1,13 @@
-export const getPokemonByID = async (id: number) => {
+export const getAllRockets = async () => {
     try {
-      const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+      const response = await fetch(`https://api.spacex.land/rest/rockets`);
 
       if (response.status !== 200) return;
   
-      const pokemon = await response.json();
-      console.log(pokemon)
+      const rockets = await response.json();
+      console.log(rockets)
   
-      return pokemon;
+      return rockets;
     } catch (e) {
       console.error(e);
     }

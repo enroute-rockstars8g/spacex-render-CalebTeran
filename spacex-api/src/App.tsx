@@ -7,7 +7,6 @@ function App() {
       <img src={require('./space-logo-white.png')} className="App-logo" alt="logo" />
       <div className="stars"></div>
       <div className="twinkling"></div>
-
       <div className="Main-content">
        <Spacex />
       </div>
