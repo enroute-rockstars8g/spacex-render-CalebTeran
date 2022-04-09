@@ -4,13 +4,12 @@ import Spacex from './components/Spacex/Spacex';
 function App() {
   return (
     <div className="App">
+      <div className="Main-content">
       <img src={require('./space-logo-white.png')} className="App-logo" alt="logo" />
       <div className="stars"></div>
       <div className="twinkling"></div>
-      <div className="Main-content">
-       <Spacex />
+      <Spacex />
       </div>
-
     </div>
   );
 }

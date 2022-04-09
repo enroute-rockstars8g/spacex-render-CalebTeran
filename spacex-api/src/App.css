@@ -2,15 +2,22 @@
   text-align: center;
 }
 .Main-content{
-  color: #fff;
+	color: #fff;
+	width: 100%;
+	height:auto;
+	position:absolute;
+	display:block;
+  top:0; bottom:0;
+  left:0; right:0;
 }
 
 .App-logo {
-  height: 10vmin;
-  pointer-events: none;
+	height: 10vmin;
+	pointer-events: none;
 }
 
 .stars, .twinkling{
+	height: 150vmin;
 	position:absolute;
 	display:block;
 	top:0; bottom:0;
