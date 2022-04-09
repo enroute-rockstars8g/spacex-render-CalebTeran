@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+## Preactice preview
+![Preview](./src/assets/spacexproof.png)
+## API resource
+ Page: [https://api.spacex.land/rest/](https://api.spacex.land/rest/)\
+ Endpoint: [https://api.spacex.land/rest/#/default/rocketsQuery](https://api.spacex.land/rest/#/default/rocketsQuery)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
